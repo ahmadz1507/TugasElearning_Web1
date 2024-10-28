@@ -1,0 +1,107 @@
+/* Logo Styling */
+.logo-img {
+    max-width: 150px; /* Ukuran Logo */
+    height: auto;     /* Gambar Auto */
+}
+
+/* Layout halaman */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+    height: 100%;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 350px;
+}
+
+h3 {
+    color: #4b4b4b;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-control {
+    border: none;
+    background-color: #f1f1f1;
+    height: 45px;
+}
+
+.btn-primary {
+    background-color: #ff007f;
+    border-color: #ff007f;
+}
+
+.btn-outline-primary {
+    border-color: #ff007f;
+    color: #ff007f;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff007f;
+    color: #fff;
+}
+
+.social-links a {
+    color: #000;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.social-links a:hover {
+    color: #ff007f;
+}
+
+/* Hero Section Styling */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.hero a.btn-primary {
+    background-color: #ff007f;
+    border-color: #ff007f;
+    font-size: 1.1rem;
+}
+
+.hero a.btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.hero a.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #ff007f;
+}
+
+/* Tampilan lebih baik */
+body {
+    background-color: #f0f0f0; /* BG abu halus*/
+    color: #333333;
+}
